@@ -10,7 +10,7 @@ class ButtonUIs extends StatelessWidget {
         title: Text("Buttons"),
       ),
       body: Container(
-        margin: EdgeInsets.all(20),
+        margin: EdgeInsets.all(5),
         child: SingleChildScrollView(
           child: Column(
             children: [
@@ -47,7 +47,7 @@ class ButtonUIs extends StatelessWidget {
               Container(
                 padding: EdgeInsets.all(10),
                 child: OutlinedButton(
-                  onPressed: () {  },
+                  onPressed: () {},
                   child: Text("Outlined Button"),
                 ),
               ),
@@ -63,17 +63,32 @@ class ButtonUIs extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    TextButton(
-                      onPressed: () {  },
-                      child: Text("Outlined Button"),
+                    Expanded(
+                      child: TextButton(
+                        onPressed: () {},
+                        child: Text(
+                          "Outlined Button",
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
                     ),
-                    ElevatedButton(
-                      onPressed: () {  },
-                      child: Text("Outlined Button"),
+                    Expanded(
+                      child: ElevatedButton(
+                        onPressed: () {},
+                        child: Text(
+                          "Outlined Button",
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
                     ),
-                    OutlinedButton(
-                      onPressed: () {  },
-                      child: Text("Outlined Button"),
+                    Expanded(
+                      child: OutlinedButton(
+                        onPressed: () {},
+                        child: Text(
+                          "Outlined Button",
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
                     ),
                   ],
                 ),
