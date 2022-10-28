@@ -14,6 +14,7 @@ class Dicee extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.red,
       appBar: AppBar(
+        shadowColor: Colors.transparent,
         title: Text(
           "Dicee",
           style: TextStyle(color: Colors.white),
