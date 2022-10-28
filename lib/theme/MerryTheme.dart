@@ -28,5 +28,9 @@ class MerryTheme {
       ),
     ),
   );
+
+  static TextStyle mutedTextStyle = const TextStyle(
+      color: Colors.grey
+    );
 }
 
