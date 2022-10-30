@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class MerryTheme {
   static ThemeData themeData = ThemeData(
-    primarySwatch: Colors.red,
+    primarySwatch: Colors.green,
     appBarTheme: const AppBarTheme(
         titleTextStyle: TextStyle(color: Colors.white),
         actionsIconTheme: IconThemeData(color: Colors.white)),
